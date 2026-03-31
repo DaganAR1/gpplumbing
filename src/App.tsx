@@ -466,7 +466,7 @@ export default function App() {
                   </div>
                   <div>
                     <div className="text-white font-bold text-base sm:text-lg">Business Hours</div>
-                    <p className="text-slate-400 text-sm sm:text-base">Mon - Fri: 8am - 6pm<br />24/7 Emergency Service Available</p>
+                    <p className="text-slate-400 text-sm sm:text-base">Mon - Fri: 7am - 7pm<br />24/7 Emergency Service Available</p>
                   </div>
                 </div>
               </div>
@@ -483,37 +483,7 @@ export default function App() {
               </div>
             </div>
 
-            <div className="flex-1 bg-slate-800 min-h-[450px] md:min-h-full relative group overflow-hidden rounded-b-[2rem] md:rounded-r-[3rem] md:rounded-bl-none shadow-inner">
-              {/* Custom Map Card Overlay */}
-              <div className="absolute top-4 left-4 right-4 sm:right-auto sm:top-6 sm:left-6 z-20 bg-white/95 backdrop-blur shadow-2xl rounded-xl p-3 sm:p-4 flex items-center justify-between min-w-[200px] sm:min-w-[280px] border border-slate-200 transition-transform duration-500 group-hover:scale-105">
-                <div>
-                  <h4 className="text-slate-900 font-bold text-base sm:text-lg leading-tight">Denton</h4>
-                  <p className="text-slate-500 text-xs sm:text-sm">Denton, TX</p>
-                </div>
-                <div className="flex gap-2">
-                  <button className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-slate-50 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors border border-slate-200">
-                    <Search className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                  </button>
-                  <button className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-primary flex items-center justify-center text-white hover:bg-blue-700 transition-colors shadow-lg shadow-primary/30">
-                    <MapPin className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                  </button>
-                </div>
-              </div>
-
-              {/* Satellite Toggle Mockup */}
-              <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 z-20 w-12 h-12 sm:w-16 sm:h-16 rounded-lg border-2 border-white shadow-xl overflow-hidden cursor-pointer hover:scale-110 transition-transform">
-                <img 
-                  src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&q=80&w=150" 
-                  alt="Satellite view" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              {/* Fullscreen Mockup */}
-              <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 z-20 w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-lg shadow-xl flex items-center justify-center cursor-pointer hover:bg-slate-50 transition-colors">
-                <Settings className="w-4 h-4 sm:w-5 sm:h-5 text-slate-600" />
-              </div>
-
+            <div className="flex-1 bg-slate-800 min-h-[450px] md:min-h-full relative overflow-hidden rounded-b-[2rem] md:rounded-r-[3rem] md:rounded-bl-none shadow-inner">
               {/* The Map Iframe - Fixed with absolute positioning to fill container */}
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106947.8814725345!2d-97.21191026640625!3d33.21484120000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864dca896324888d%3A0x633593b4a24f0c40!2sDenton%2C%20TX!5e0!3m2!1sen!2sus!4v1711915000000!5m2!1sen!2sus"
