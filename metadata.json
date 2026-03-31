@@ -1,0 +1,5 @@
+{
+  "name": "GP Plumbing",
+  "description": "Expert plumbing in Denton, TX. We specialize in toilet, sink, shower, and water heater installation & repair. Licensed gas line and sewer experts available 24/7.",
+  "requestFramePermissions": ["geolocation"]
+}

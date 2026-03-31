@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #0047AB; /* Cobalt Blue */
+  --color-secondary: #F5F5F5;
+  --color-accent: #FF8C00; /* Dark Orange */
+}
+
+@layer base {
+  body {
+    @apply bg-white text-slate-900 antialiased;
+  }
+}
