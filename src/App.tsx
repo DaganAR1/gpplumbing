@@ -304,8 +304,8 @@ export default function App() {
             <div className="lg:flex-[0.8] relative w-full max-w-lg mx-auto lg:mx-0">
               <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl aspect-square lg:aspect-[4/5]">
                 <img 
-                  src="https://www.powerproequipment.com/wp-content/uploads/2021/07/how-often-should-you-mow-your-lawn.jpg" 
-                  alt="Lawn being mowed in Denton" 
+                  src="https://www.icominc.com/wp-content/uploads/2021/08/TA9Q9bV3Z81nZRooviZz51Y4bpnXIdBt1623180634.jpg" 
+                  alt="GP Plumbing expert at work" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />
